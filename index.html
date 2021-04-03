@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+</head>
+<body>
+    <video src="bg.mp4" autoplay muted loop></video>
+    <div class="clock">
+        <div class="clock-hand hours"></div>
+        <div class="clock-hand minutes"></div>
+        <div class="clock-hand seconds"></div>
+        <div class="central-dot"></div>
+        <div class="clock-text">
+            <h1>clock</h1>
+            <div class="countdown-wrapper">
+                <h3>time left</h3>
+                <div class="countdown">
+                    <div class="countdown-time" id="days">00</div>:
+                    <div class="countdown-time">00</div>:
+                    <div class="countdown-time">00</div>:
+                    <div class="countdown-time">00</div>
+                </div>
+            </div>    
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
